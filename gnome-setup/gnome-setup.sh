@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# cachyos configuração automatizada
+# gnome configuração automatizada em notebooks
 
 # 1. Configurar limite de carga da bateria
 echo "Definindo limite de carga da bateria para 80%..."
