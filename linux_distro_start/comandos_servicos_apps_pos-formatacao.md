@@ -2,7 +2,7 @@
 
 - debian/ubuntu	  sudo apt update && sudo apt full-upgrade
 - arch/manjaro    sudo pacman -Syyu
-- fedora          sudo dnf check-update
+- fedora          sudo dnf check-update && sudo dnf update
 
 ## segundo passo em distros com base ubuntu/debian
 > procurar escolher o mirror com a conexão mais rápida em relação ao tempo de conexão com o servidor.
