@@ -79,3 +79,4 @@ net.ipv4.tcp_max_syn_backlog = 4096
 
 
 Lembre-se de que essas configurações adicionais devem ser usadas com cautela e testadas em um ambiente de desenvolvimento antes de serem aplicadas em produção. Elas podem ajudar a melhorar o desempenho e a segurança do sistema, mas também podem afetar o comportamento do sistema de forma imprevista se não forem configuradas corretamente
+
