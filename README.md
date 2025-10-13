@@ -21,8 +21,8 @@ Para aplicar essas configurações, siga os passos a seguir:
 	vm.vfs_cache_pressure = 50
 ```
 
-	**Configurações recomendadas:**
-	
+**Configurações recomendadas:**
+
    ```bash
 	vm.dirty_ratio = 20
 	vm.dirty_background_ratio = 10
