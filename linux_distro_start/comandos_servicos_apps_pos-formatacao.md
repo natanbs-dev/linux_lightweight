@@ -28,6 +28,6 @@ software-properties-gtk
 - intellij
 - visual studio code
 
-## preferẽncia de pacotes:
+## preferência de pacotes:
 > sempre que possível, optar por desvincilhar dos *_snaps*_.
 Além de seguirem outra filosofia que os demais enpacotamentos, teve uma performance inferior que os demais
