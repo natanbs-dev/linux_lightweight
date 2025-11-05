@@ -1,0 +1,13 @@
+
+
+echo "sem referênciar o ip no display do fastfetch"
+
+fastfetch -s Title:Separator:OS:Host:Kernel:Uptime:Packages:Shell:Display:DE:WM:WMTheme:Theme:Icons:Font:Cursor:Terminal:TerminalFont:CPU:GPU:Memory:Swap:Disk:Battery:PowerAdapter:Locale:Break:Colors
+
+echo "todas as configurações, incluso o dns"
+
+fastfetch --config all
+
+echo "trocar a logo"
+
+fastfetch -l <arch> <linux-mint>
