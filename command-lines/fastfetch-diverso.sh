@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 echo "sem referênciar o ip no display do fastfetch"
 
