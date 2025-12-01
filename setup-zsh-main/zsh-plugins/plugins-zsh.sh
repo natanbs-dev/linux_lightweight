@@ -1,0 +1,1 @@
+plugins=(git zsh-autosuggestions colored-man-pages zsh-syntax-highlighting dirhistory)
