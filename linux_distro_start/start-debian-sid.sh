@@ -18,7 +18,7 @@ sudo apt install intel-media-va-driver-non-free mesa-vulkan-drivers libglx-mesa0
 ## configurando a governança de energia:
 sudo systemctl stop cpupower.service
 sudo systemctl mask cpupower.service
-sudo apt remove --purge linux-cpupower
+sudo apt remove --purge -y linux-cpupower 
 sudo apt install power-profiles-daemon
 sudo systemctl enable power-profiles-daemon.service 
 sudo systemctl start power-profiles-daemon.service 
