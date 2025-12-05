@@ -43,7 +43,7 @@ Para aplicar essas configurações, siga os passos a seguir:
 Para alterar temporariamente a configuração de `vm.swappiness`, você pode usar o comando:
 
 ```bash
-sudo sysctl vm.swappiness=1
+sudo sysctl vm.swappiness=10
 ```
 
 Lembrando que essas configurações são recomendadas e podem ser ajustadas de acordo com as necessidades específicas do seu sistema.
