@@ -64,7 +64,7 @@ net.ipv4.tcp_fastopen = 3
 net.ipv4.tcp_rmem = 4096 87380 33554432
 net.ipv4.tcp_wmem = 4096 65536 33554432
 net.ipv4.tcp_window_scaling = 1
-net.ipv4.tcp_timestamps = 1          # ✅ HABILITADO
+net.ipv4.tcp_timestamps = 1    
 net.ipv4.tcp_sack = 1
 net.ipv4.tcp_no_metrics_save = 1
 
