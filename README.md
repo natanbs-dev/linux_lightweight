@@ -1,4 +1,10 @@
-# Linux Lightweight Configuration
+#                                                                                                         Linux Lightweight Configuration
+
+<p align="center">
+<img width="1920px" src="https://github.com/natanbs-dev/linux_lightweight/blob/main/screenshot/deb-print.png" align="center" alt="white" /></br>
+ 
+
+
 
 Este repositório contém configurações recomendadas para o arquivo `sysctl.conf` em sistemas Linux. O `sysctl.conf` é usado para configurar diversos parâmetros do kernel do Linux, ajudando a otimizar o desempenho e a segurança do sistema.
 
