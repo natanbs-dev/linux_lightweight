@@ -1,4 +1,4 @@
-# Linux Lightweight Configuration
+#                                                                                                         Linux Lightweight Configuration
 
 <p align="center">
 <img width="1920px" src="https://github.com/natanbs-dev/linux_lightweight/blob/main/screenshot/deb-print.png" align="center" alt="white" /></br>
