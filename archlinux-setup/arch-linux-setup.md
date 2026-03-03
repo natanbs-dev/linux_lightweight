@@ -19,15 +19,23 @@ cfdisk /dev/nvme0n1
 ### formatando as partições e montando
 
 > tendo feito o passo anterior, confirme com o comando lsblk para verificar se foram criadas as partições corretamente:
-> 	lsblk 
+```
+lsblk 
+```
 
 > confirmadas, formate as duas partições seguindo esse padrão, lembrando, primeiramente a partição de boot e em segundo a raiz, que serão colocadas com os números 5 e 6 para exemplo
 > 	**formatando partições: FAT32 e EXT4:**
-> 	mkfs.fat -F32 /dev/nvme0n1p5
-> 	mkfs.ext4 /dev/nvme0n1p6
-> 	**montagem:**
-> 	mount /dev/nvme0n1p6 /mnt
-> 	mkdir /mnt/boot
-> 	mount /dev/nvme0n1p5 /mnt/boot/
-> 	**consulte:**
-> 	lsblk
+```
+    mkfs.fat -F32 /dev/nvme0n1p5
+ 	mkfs.ext4 /dev/nvme0n1p6
+```
+ 	**montagem:**
+```
+ 	mount /dev/nvme0n1p6 /mnt
+ 	mkdir /mnt/boot
+ 	mount /dev/nvme0n1p5 /mnt/boot/
+```
+ 	**consulte:**
+```
+ 	lsblk
+```
